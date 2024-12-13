@@ -1,0 +1,68 @@
+step by step.txt
+
+# Ignore json files and my Google Cloud credentials
+*.json
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore logs
+*.log
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.pid
+
+# Node.js
+node_modules/
+
+# Configurations
+config.yml
+*.secret
+
+# Debugging
+*.stackdump
+*.core
+
+# Testing
+.coverage
+*.test
+*.spec.js
+
+# Docker-specific files
+.env
+docker-compose.override.yml
+
+# dbt-specific files
+target/
+logs/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Airflow
+airflow.cfg
+unittests.cfg
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore Power BI report files
+*.pbix
+
+
